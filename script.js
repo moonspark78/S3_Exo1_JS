@@ -6,7 +6,7 @@ console.log(personne1 + ":" + " Bonjour !");
 console.log(personne2 + ":" + " Bonjour " + personne1 + " Comment ça va ?");
 
 let reponse = prompt(personne2 + ":" + " Comment ça va ?");
-console.log(personne1 + ":" + reponse +  " Et toi ?");
+console.log(personne1 + ": " + reponse +  " Et toi ?");
 
 let reponse2 = prompt(personne2 + ":" + " Veuillez entrer un second état du jour");
 console.log(`${personne2} : ${reponse2} , je te remercie.`);
